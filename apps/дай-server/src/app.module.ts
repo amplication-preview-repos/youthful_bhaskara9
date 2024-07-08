@@ -4,6 +4,8 @@ import { DonationModule } from "./donation/donation.module";
 import { SupporterModule } from "./supporter/supporter.module";
 import { ExpenseModule } from "./expense/expense.module";
 import { UserModule } from "./user/user.module";
+import { TinkoffIntegrationModule } from "./TinkoffIntegration/tinkoffintegration.module";
+import { TinkoffServiceModule } from "./TinkoffService/tinkoffservice.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -26,6 +28,8 @@ import { AuthModule } from "./auth/auth.module";
     SupporterModule,
     ExpenseModule,
     UserModule,
+    TinkoffIntegrationModule,
+    TinkoffServiceModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
